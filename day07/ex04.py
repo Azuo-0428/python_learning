@@ -1,3 +1,9 @@
+"""
+
+正整数逆序
+
+"""
+
 result = 0
 num = int(input("请输入一个正整数："))
 while num // 10 != 0:

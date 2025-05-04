@@ -1,3 +1,9 @@
+"""
+
+百钱百鸡
+
+"""
+
 for i in range(0, 21):
     for j in range(0, 34):
         for k in range(0, 300):
