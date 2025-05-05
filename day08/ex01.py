@@ -26,13 +26,14 @@ for _ in range(1, 6001):
         m += 1
     else:
         n += 1
-print(f'点数为1的出现次数有{i}，点数为2的出现次数有{j}，点数为3的出现次数有{k}，点数为4的出现次数有{l}，点数为5的出现次数有{m}，点数为6的出现次数有{n}')
-
+print(
+    f'点数为1的出现次数有{i}，点数为2的出现次数有{j}，点数为3的出现次数有{k}，点数为4的出现次数有{l}，点数为5的出现次数有{m}，点数为6的出现次数有{n}')
 
 print('\n-------------------------------------------------------------------------------\n')
+# 点数计数器
 counters = [0] * 6
 for _ in range(6000):
-    face = random.randrange(1,7)
-    counters[face -1] +=1 #counters[0]=1
-for face in range(1,7):
-    print(f'{face}出现了{counters[face-1]}次')
+    face = random.randrange(1, 7)
+    counters[face - 1] += 1  # counters[0]=1
+for face in range(1, 7):
+    print(f'{face}出现了{counters[face - 1]}次')
