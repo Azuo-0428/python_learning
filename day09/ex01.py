@@ -27,3 +27,16 @@ print(languages)
 # del不会返回删除元素，pop会返回
 del languages[1]
 print(languages)
+items = ['SQL', 'JavaScript', 'Java']
+languages += items
+languages.append('Python')
+print(languages)
+print(languages.index('Java'))
+print(languages.index('Python'))
+print(languages.count('Python'))
+print(languages.count('Java'))
+print(languages.index('SQL',2))
+languages.sort()
+print(languages)
+languages.reverse()
+print(languages)
