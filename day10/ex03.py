@@ -14,3 +14,10 @@ x, y, *z = a
 print(x, y, z)
 *x, y, z = a
 print(x, y, z)
+
+a, *b, c = range(1, 9)
+print(a, b, c)
+a, b, c = [1, 3, 4]
+print(a, b, c)
+a, *b, c = 'hello'
+print(a, b, c)
