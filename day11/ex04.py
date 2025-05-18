@@ -27,14 +27,30 @@ print(s3 != s4)
 
 """
 
-s1 = 'hello, world'
-s2 = 'goodbye world'
-print('wo' in s1)
-print('wo' not in s2)
-print(s2 in s1)
+s5 = 'hello, world'
+s6 = 'goodbye world'
+print('wo' in s5)
+print('wo' not in s5)
+print(s6 in s5)
 
-s1 = 'hello, world'
-s2 = 'goodbye, world'
-print('wo' in s1)      # True
-print('wo' not in s2)  # False
-print(s2 in s1)        # False
+"""
+
+获取字符串长度
+
+"""
+
+s = 'hello, world'
+print(len(s))
+print(len('goodbye, world'))
+
+"""
+
+索引和切片
+
+"""
+
+s = 'abc123456'
+n = len(s)
+print(s[0], s[-1])
+print(s[n - 1], s[-1])
+print(s[2], s[7])
