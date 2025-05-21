@@ -61,3 +61,17 @@ print(s[2:])
 print(s[:2])
 print(s[::2])
 print(s[::-1])
+
+"""
+
+字符的遍历
+
+"""
+
+str1 = 'hello'
+for i in range(len(str1)):
+    print(str1[i])
+
+str2 = 'world'
+for elem in str2:
+    print(elem)
