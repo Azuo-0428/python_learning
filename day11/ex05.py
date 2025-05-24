@@ -18,3 +18,13 @@ print(s2.lower())
 print(s1)
 print(s2)
 
+"""
+
+查找操作
+
+"""
+
+s = 'hello world!'
+print(s.find('or'))
+print(s.rfind('o'))
+print(s.rindex('o'))
