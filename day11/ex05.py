@@ -28,3 +28,5 @@ s = 'hello world!'
 print(s.find('or'))
 print(s.rfind('o'))
 print(s.rindex('o'))
+
+s1 = 'goodbye world'
