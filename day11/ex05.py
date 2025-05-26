@@ -30,3 +30,7 @@ print(s.rfind('o'))
 print(s.rindex('o'))
 
 s1 = 'goodbye world'
+s2 = 'I am not happy'
+print(s2.find('o'))
+print(s2.rfind('o'))
+print(s2.rindex('o'))
