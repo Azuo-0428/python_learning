@@ -18,8 +18,8 @@ print(s2.rstrip('~'))
 """
 
 s3 = 'hello, good world!'
-print(s3.replace('o','@'))
-print(s3.replace('o','@',1))
+print(s3.replace('o', '@'))
+print(s3.replace('o', '@', 1))
 
 """
 
@@ -28,14 +28,14 @@ print(s3.replace('o','@',1))
 """
 
 s4 = 'I love you so much'
-words = s4.split() #将一个字符串拆成多个字符串（放在同一列表中）
+words = s4.split()  # 将一个字符串拆成多个字符串（放在同一列表中）
 print(words)
 print('~'.join(words))
 print('#'.join(words))
-words1= s4.split('#')
+words1 = s4.split('#')
 print(words1)
 s5 = 'I#love#you#so#much'
-words2 = s5.split('#',2)
+words2 = s5.split('#', 2)
 print(words2)
 
 """
@@ -44,7 +44,7 @@ print(words2)
 
 """
 
-a= 'Azuo'
+a = '阿左'
 b = a.encode('utf-8')
 c = a.encode('gbk')
 print(b)
