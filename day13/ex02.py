@@ -41,7 +41,7 @@ for key in person:
 # 返回默认值
 print(person.get('name'))
 print(person.get('hobby'))
-print(person.get('sex',True))
+print(person.get('sex', True))
 
 # 获取key and value
 print(person.keys())
@@ -50,5 +50,24 @@ print(person.items())
 for key, value in person.items():
     print(f'{key}:\t{value}')
 
-# 两个字典的合并
-person2 = {'name':'隔壁老王', 'age':}
+# 两个字典的合并 update & |=
+person2 = {'name': '隔壁老王', 'age': 30, 'height': 182}
+person3 = {'age': 22, 'addr': '北京市'}
+person2.update(person3)
+print(person2)
+
+person |= person3
+print(person)
+
+# 删除元素 pop/ popitem/ clear
+print(person.pop('age'))
+print(person)
+print(person.popitem()) # 默认最后一个
+print(person)
+person.clear()
+print(person)
+
+# 删除元素 del
+del person2['age']
+del person2['height']
+print(person2)
