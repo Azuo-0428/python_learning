@@ -3,6 +3,6 @@ counter = {}
 for ch in sentence:
     if 'A' <= ch <= 'Z' or 'a' <= ch <= 'z':
         counter[ch] = counter.get(ch, 0) + 1
-sorted_keys = sorted(counter, key = counter.get, reverse = True)
+sorted_keys = sorted(counter, key = counter.get, reverse = True) # reverse = True 降序； reverse = False 升序
 for key in sorted_keys:
     print(f'{key}出现了{counter[key]}次。')
